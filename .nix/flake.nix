@@ -16,10 +16,13 @@
         clang
         cmake
         gnumake
+        zig
         glxinfo
         glfw
         glsl_analyzer
         wayland
+        renderdoc
+        xwayland
       ];
 
       shellHook = ''

@@ -5,9 +5,10 @@ target_link_libraries(test PUBLIC
   glfw
 )
 
-add_executable(main main.c)
+add_executable(main main.c shader.c)
 
 target_include_directories(main PUBLIC
+  ${CMAKE_SOURCE_DIR}/src
   ${CMAKE_SOURCE_DIR}/external/glad/include
 )
 
