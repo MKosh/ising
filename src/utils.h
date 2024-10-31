@@ -1,6 +1,8 @@
 #pragma once
 
 #include <stdint.h>
+#include "glad/gl.h"
+#include <GLFW/glfw3.h>
 
 #define BUFFER_OFFSET(a) ((void*)(a))
 

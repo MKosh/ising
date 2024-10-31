@@ -23,6 +23,7 @@
         wayland
         renderdoc
         xwayland
+        cglm
       ];
 
       shellHook = ''
