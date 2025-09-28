@@ -1,7 +1,7 @@
 # Summary
 
-Implementation of a 2D Ising model in C using OpenGL for the visiuals. This project
-has two major goals,
+Implementation of a 2D Ising model in C using OpenGL and ImPlot for the visiuals. This project has two major goals,
 
 1) Implement some interesting physics while learning more about graphics programming.
-2) Stepping back from more complicated languages like C++, and focusing on just getting a code project done without worrying about implementing the "best" architecture or using the "correct" design patterns.
+2) Focusing on just getting a code project done without worrying about implementing the "best" architecture or using the "correct" design patterns.
+  - I originally started using C for this project, but for ease of development switched back to C++ to make easier use of libraries like ImGui and ImPlot
