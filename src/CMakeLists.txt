@@ -1,10 +1,3 @@
-add_executable(test test.c)
-
-target_link_libraries(test PUBLIC
-  glad
-  glfw
-)
-
 add_executable(main main.cpp window.cpp 
   ${IMGUI_SRC}/imgui.cpp ${IMGUI_SRC}/imgui_draw.cpp ${IMGUI_SRC}/imgui_tables.cpp ${IMGUI_SRC}/imgui_widgets.cpp ${IMGUI_SRC}/imgui_demo.cpp
   ${IMGUI_SRC}/backends/imgui_impl_glfw.cpp ${IMGUI_SRC}/backends/imgui_impl_opengl3.cpp
