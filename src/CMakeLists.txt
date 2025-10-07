@@ -4,6 +4,8 @@ add_executable(main main.cpp window.cpp
   ${IMPLOT_SRC}/implot.cpp ${IMPLOT_SRC}/implot_items.cpp
 )
 
+target_compile_definitions(main PUBLIC "$<$<CONFIG:DEBUG>:DEBUG>")
+
 target_include_directories(main PUBLIC
   ${CMAKE_SOURCE_DIR}/src
   ${CMAKE_SOURCE_DIR}/external/glad/include

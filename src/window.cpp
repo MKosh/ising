@@ -18,10 +18,6 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mode
 }
 
 void initWindow(GLFWwindow*& window, i32 width, i32 height, const char* name) {
-  if (window == nullptr) {
-    std::print("ERROR: nullptr passed to initWindow\n"); 
-    exit(1);
-  }
 
   glfwInit();
   glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
